@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #2A324B;
+    text-align: center;
+}
+.Tic-Tac-Toe{
+    font-size: 40px;
+    padding-top: 3vh;
+    color: #E1E5EE;
+}
+.container{
+    height: 70vh;
+    padding-top: 2vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* z-index: -1; */
+}
+.game-box{
+   height: 60vmin;
+   width: 60vmin;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   /* margin-left: 20vmin */
+   gap: 1.5vmin;
+}
+.box{
+   height: 18vmin;
+   width: 18vmin;
+   /* color: #E1E5EE; */
+   color: #04052E;
+   background-color: #F7C59F;
+   border-radius: 1rem;
+   border: none;
+   font-size: 8vmin;
+   box-shadow: 0 0 1rem rgba(0,0, 0, 0.3);
+}
+.reset-btn ,.new-btn{
+    /* background-color: #C7CCDB; */
+    background-color: black;
+    color: #F7C59F;
+    height: 7vmin;
+    width: 20vmin;
+    border-radius: 1rem;
+    border: none;
+    font-size: 3vmin;
+    margin-top: 3vmin;
+    box-shadow: 0 0 1rem rgba(0,0, 0, 0.3);
+
+}
+.msg-container{
+    color: white;
+
+}
+#msg{
+    font-size: 5vmin;
+}
+.hide{
+    padding-top: 3vh;
+    display: none;
+    /* color: #F7C59F; */
+}
